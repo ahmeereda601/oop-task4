@@ -7,8 +7,8 @@
             PaymentMethod[] payments =
               {
                 new CreditCardPayment(1500),
-                new CashPayment(300)
-            };
+                new CashPayment(300)};
+
             foreach (PaymentMethod payment in payments)
             {
 
